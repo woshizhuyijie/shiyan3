@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/font_size" android:title="字体大小">
+        <menu>
+            <group android:checkableBehavior = "none">
+                <item android:id="@+id/font_size_10sp" android:title = "10sp"/>
+                <item android:id="@+id/font_size_16sp" android:title = "16sp"/>
+                <item android:id="@+id/font_size_20sp" android:title = "20sp"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/item_pt" android:title="普通菜单项">
+    </item>
+        <item android:id="@+id/colour" android:title="字体颜色">
+            <menu>
+                <group android:checkableBehavior = "none">
+                    <item android:id="@+id/colour_blue" android:title="蓝色"/>
+                    <item android:id="@+id/colour_green" android:title="绿色"/>
+                    <item android:id="@+id/colour_red" android:title="红色"/>
+                    <item android:id="@+id/colour_yellow" android:title="黄色"/>
+                    <item android:id="@+id/colour_bl" android:title="黑色"/>
+                </group>
+            </menu>
+        </item>
+
+</menu>

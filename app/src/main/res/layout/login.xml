@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/login_name"
+        android:layout_gravity="center_vertical"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:width="300dp"
+        android:hint="请输入用户名"
+        android:selectAllOnFocus="true"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/login_password"
+        android:layout_gravity="center_vertical"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:width="300dp"
+        android:hint="请输入登录密码"
+        android:selectAllOnFocus="true"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
